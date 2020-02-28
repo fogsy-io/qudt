@@ -1,0 +1,124 @@
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+*.iml
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+.DS_Store
+
+# Maven
+*/log/*
+*/target/*
+
+**/target/*
+/.m2/**
+
+# JS 
+dist/
+
+./target/*
+npm-debug.log
+
+# Test Data from running in local mode
+/test_data/
+
+ui/src/assets/lib/apps/*
+
+
+# prebuild
+ui/src/app/app.module.ts
+ui/src/app/appng5.module.ts
+ui/src/app/core/state.config.ts
+ui/src/app/layout/toolbar.controller.ts
+ui/src/app/home/home.service.ts
+ui/src/app/services/version/version.service.ts
+
+# compiled output
+ui/dist
+ui/dist-server
+ui/tmp
+ui/out-tsc
+
+# dependencies
+ui/node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+npm-debug.log.*
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+bundle.js
+bundle.js.map
+
+.vscode/
+
+package-lock.json
+logs/
